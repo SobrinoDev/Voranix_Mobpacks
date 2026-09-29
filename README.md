@@ -28,6 +28,7 @@ minutos en mostrar los cambios).
   "loader": "forge-14.23.5.2860",
   "recommendedRamGB": 8,
   "logo": "logos/rlcraft.png",
+  "banner": "banners/rlcraft.webp",
   "website": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
   "source": {
     "type": "curseforge",
@@ -47,7 +48,8 @@ minutos en mostrar los cambios).
 | `loader` | sí | Por ahora solo Forge: `forge-<versión>` (está en el `manifest.json` del pack). |
 | `source.projectId`, `source.fileId` | sí | IDs de CurseForge. |
 | `source.size` | no | Tamaño exacto del zip en bytes; si está, el launcher comprueba que la descarga llegó completa. |
-| `logo` | no | URL `https://...` o ruta dentro de este repo (ej. `logos/rlcraft.png`). Sin logo se muestra un bloque. |
+| `logo` | no | Ícono cuadrado (ideal 256–512 px, PNG con fondo transparente). URL `https://...` o ruta dentro de este repo (ej. `logos/rlcraft.png`). Sin logo se muestra un bloque. |
+| `banner` | no | Fondo de la tarjeta, horizontal (ej. 1920×720). Se oscurece a la izquierda para que se lea el texto. Mismo formato que `logo` (ej. `banners/rlcraft.webp`). |
 | `description`, `author`, `recommendedRamGB`, `website` | no | Se muestran en la tarjeta del modpack. |
 
 ## Dónde se instalan

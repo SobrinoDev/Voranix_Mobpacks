@@ -9,6 +9,8 @@
       "minecraft": "1.12.2",
       "loader": "forge-14.23.5.2860",
       "recommendedRamGB": 8,
+      "logo": "logos/rlcraft.png",
+      "banner": "banners/rlcraft.webp",
       "website": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
       "source": {
         "type": "curseforge",
