@@ -1,0 +1,22 @@
+{
+  "modpacks": [
+    {
+      "id": "rlcraft",
+      "name": "RLCraft",
+      "description": "Supervivencia extrema: dragones, sed, temperatura, heridas y combate muy difícil. Más de 180 mods.",
+      "author": "Shivaxi",
+      "version": "2.9.3",
+      "minecraft": "1.12.2",
+      "loader": "forge-14.23.5.2860",
+      "recommendedRamGB": 8,
+      "website": "https://www.curseforge.com/minecraft/modpacks/rlcraft",
+      "source": {
+        "type": "curseforge",
+        "projectId": 285109,
+        "fileId": 4612979,
+        "fileName": "RLCraft 1.12.2 - Release v2.9.3.zip",
+        "size": 51324367
+      }
+    }
+  ]
+}
