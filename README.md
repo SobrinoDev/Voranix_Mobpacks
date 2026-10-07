@@ -46,11 +46,35 @@ minutos en mostrar los cambios).
 | `name`, `version` | sí | Al cambiar `version` (y `fileId`) los jugadores ven **Actualizar**. |
 | `minecraft` | sí | Versión de Minecraft del pack, ej. `1.12.2`. |
 | `loader` | sí | Por ahora solo Forge: `forge-<versión>` (está en el `manifest.json` del pack). |
-| `source.projectId`, `source.fileId` | sí | IDs de CurseForge. |
+| `source.projectId`, `source.fileId` | sí (CurseForge) | IDs de CurseForge. Para packs propios ver abajo (`"type": "url"`). |
 | `source.size` | no | Tamaño exacto del zip en bytes; si está, el launcher comprueba que la descarga llegó completa. |
 | `logo` | no | Ícono cuadrado (ideal 256–512 px, PNG con fondo transparente). URL `https://...` o ruta dentro de este repo (ej. `logos/rlcraft.png`). Sin logo se muestra un bloque. |
 | `banner` | no | Fondo de la tarjeta, horizontal (ej. 1920×720). Se oscurece a la izquierda para que se lea el texto. Mismo formato que `logo` (ej. `banners/rlcraft.webp`). |
 | `description`, `author`, `recommendedRamGB`, `website` | no | Se muestran en la tarjeta del modpack. |
+
+## Packs propios (no publicados en CurseForge)
+
+Para un pack nuestro, el zip va en `packs/` y la entrada usa `"type": "url"`:
+
+```json
+"source": {
+  "type": "url",
+  "url": "packs/voranix-modpack-test.zip",
+  "size": 18398806
+}
+```
+
+El zip tiene el formato de una exportación de CurseForge (`manifest.json` + `overrides/`).
+Los mods de terceros **no van dentro del zip**:
+
+- Los de CurseForge, en `manifest.json` → `files` (como cualquier exportación).
+- Los que solo están en Modrinth, en `manifest.json` → `externalFiles`, cada uno con
+  `url` (solo `https://cdn.modrinth.com/...`), `fileName` y `sha1`. El launcher
+  comprueba el `sha1` al descargarlos.
+- En `overrides/mods` solo van mods propios (ej. `voranix-1.9.1.jar`).
+
+No subas carpetas personales del `.minecraft`: cachés de Essential, mapas de
+JourneyMap (`journeymap/data`) ni archivos `.log`.
 
 ## Dónde se instalan
 

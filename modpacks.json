@@ -19,6 +19,21 @@
         "fileName": "RLCraft 1.12.2 - Release v2.9.3.zip",
         "size": 51324367
       }
+    },
+    {
+      "id": "voranix-test",
+      "name": "Voranix Modpack Test",
+      "description": "Modpack del servidor Voranix: Create, Mekanism, Alex's Mobs, nuevas estructuras, comida y mucho más. Más de 330 mods.",
+      "author": "Voranix",
+      "version": "1.0.0",
+      "minecraft": "1.20.1",
+      "loader": "forge-47.4.23",
+      "recommendedRamGB": 8,
+      "source": {
+        "type": "url",
+        "url": "packs/voranix-modpack-test.zip",
+        "size": 18398806
+      }
     }
   ]
 }
