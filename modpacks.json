@@ -40,14 +40,14 @@
       "name": "VoranixExtremo",
       "description": "Modpack del modo Extremo de Voranix: jefes, casino, efectos visuales, luces de escenario, pantallas web, decoración, modelos y animaciones de jugador y chat de voz.",
       "author": "Voranix",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "minecraft": "1.20.1",
       "loader": "forge-47.4.23",
       "recommendedRamGB": 6,
       "source": {
         "type": "url",
         "url": "packs/voranix-extremo.zip",
-        "size": 5795202
+        "size": 5809804
       }
     }
   ]
