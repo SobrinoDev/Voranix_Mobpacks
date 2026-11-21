@@ -1,4 +1,4 @@
-{
+﻿{
   "modpacks": [
     {
       "id": "voranix-extremo",
@@ -14,7 +14,7 @@
       "source": {
         "type": "url",
         "url": "packs/voranix-extremo.zip",
-        "size": 11325513
+        "size": 11404081
       }
     }
   ]
