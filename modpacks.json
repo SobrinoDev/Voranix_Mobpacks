@@ -1,21 +1,21 @@
 {
-    "modpacks":  [
-                     {
-                         "id":  "voranix-extremo",
-                         "name":  "Evento Erineo",
-                         "description":  "Modpack del Evento Erineo: jefes, casino, efectos visuales, luces de escenario, pantallas web, decoraciÃ³n, modelos y animaciones de jugador y chat de voz.",
-                         "author":  "Voranix",
-                         "version":  "1.2.13",
-                         "minecraft":  "1.20.1",
-                         "loader":  "forge-47.4.23",
-                         "recommendedRamGB":  6,
-                         "logo":  "logos/evento-erineo.png",
-                         "banner":  "banners/evento-erineo.jpg",
-                         "source":  {
-                                        "type":  "url",
-                                        "url":  "packs/voranix-extremo.zip",
-                                        "size":  11734758
-                                    }
-                     }
-                 ]
+  "modpacks": [
+    {
+      "id": "voranix-extremo",
+      "name": "Evento Erineo",
+      "description": "Modpack del Evento Erineo: jefes, casino, efectos visuales, luces de escenario, pantallas web, decoraciÃ³n, modelos y animaciones de jugador y chat de voz.",
+      "author": "Voranix",
+      "version": "1.2.14",
+      "minecraft": "1.20.1",
+      "loader": "forge-47.4.23",
+      "recommendedRamGB": 6,
+      "logo": "logos/evento-erineo.png",
+      "banner": "banners/evento-erineo.jpg",
+      "source": {
+        "type": "url",
+        "url": "packs/voranix-extremo.zip",
+        "size": 11736058
+      }
+    }
+  ]
 }
