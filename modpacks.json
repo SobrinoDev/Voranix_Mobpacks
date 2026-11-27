@@ -5,7 +5,7 @@
       "name": "Evento Erineo",
       "description": "Modpack del Evento Erineo: jefes, casino, efectos visuales, luces de escenario, pantallas web, decoración, modelos y animaciones de jugador y chat de voz.",
       "author": "Voranix",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "minecraft": "1.20.1",
       "loader": "forge-47.4.23",
       "recommendedRamGB": 6,
@@ -14,7 +14,7 @@
       "source": {
         "type": "url",
         "url": "packs/voranix-extremo.zip",
-        "size": 37686779
+        "size": 49375946
       }
     }
   ]
